@@ -1,4 +1,4 @@
-# ExData_Plotting2
+﻿# ExData_Plotting2
 Course Project 2 for  Exploratory Data Analysis
 
 ##Introduction
@@ -13,6 +13,8 @@ The data for this assignment are available from the course web site as a single 
 
 PM2.5 Emissions Data (summarySCC_PM25.rds): This file contains a data frame with all of the PM2.5 emissions data for 1999, 2002, 2005, and 2008. For each year, the table contains number of tons of PM2.5 emitted from a specific type of source for the entire year. Here are the first few rows.
 
+<table>
+    <tr>
      fips      SCC Pollutant Emissions  type year
  4  09001 10100401  PM25-PRI    15.714 POINT 1999
  8  09001 10100404  PM25-PRI   234.178 POINT 1999
@@ -20,6 +22,8 @@ PM2.5 Emissions Data (summarySCC_PM25.rds): This file contains a data frame with
  16 09001 10200401  PM25-PRI     2.036 POINT 1999
  20 09001 10200504  PM25-PRI     0.388 POINT 1999
  24 09001 10200602  PM25-PRI     1.490 POINT 1999
+    </tr>
+</table>
 
 fips: A five-digit number (represented as a string) indicating the U.S. county
 
